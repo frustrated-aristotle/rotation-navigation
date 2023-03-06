@@ -1,11 +1,35 @@
-#rotate{
-    width: 100px;
-    height: 100px;
-    background-color: aquamarine;
-}
-body{
+.main-container{
     width: 100vw;
     height: 100vh;
-    background-color : black;
-    transfrom: rotate(-45deg);
+    background-color: aquamarine;
+    transform-origin: top left;
+    margin: 0;
+}
+.menu-icon{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.content-container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 50vw;
+    max-height: 50vh;
+}
+img
+{
+    max-width: 20vw;
+    max-height: 20vh;
+}
+body{
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color : whitesmoke;
+
 }
